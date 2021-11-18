@@ -64,7 +64,20 @@ body {background-image: url(../mtcookvalley.jpg);
                     
                     
                     ;}    
- 
+     .identitylinks {
+        box-sizing: border-box; 
+        display: flex; 
+        justify-content: center;
+        padding: 2%;
+        margin: 1%   ;
+        border-style: ridge  ;
+        border-color: rgb(107, 145, 107);
+        background-color: rgb(209, 221, 217);
+        color: red;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-decoration: none;
+        font-size: 2rem;
+     }   
 @media (max width 500px) {
     .imageposition {display: flex;
     flex-wrap: wrap;

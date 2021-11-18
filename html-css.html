@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>POSITIONING IN CSS</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/main.css">
-    <title>POSITIONING IN CSS</title>
+    <link rel="stylesheet" href="styles/main.css">   
 </head>
 <body>
     <header>
@@ -26,20 +26,25 @@
       <div class="positioning">
           <h3>RELATIVE POSITIONING IN CSS CODE</h3>
           <p>Relative positioning is where you manipulate your chosen element, in relation to its OWN original/default/static position either in its given 'container' or on the page. when moving an element, you are offsetting FROM whatever original edge position you are wanting to move away from. (+) numbers move inward from the original edge position (towards the centre of the container or page)and (-)numbers move outward from mthe original edge position (towards the outer edges of the container or page)</p> 
-          <img class="imageposition" src="./images/relativeposition.PNG" alt="box moving down and the right by 20px respectively from its original position represented by dotted lines"> 
+          <div class="imageposition">
+          <img width="400em" height="200em"src="./images/relativeposition.PNG" alt="box moving down and the right by 20px respectively from its original position represented by dotted lines"> 
+          </div>
       </div>
       
       <div class="positioning">
         <h3>ABSOLUTE POSITIONING IN CSS CODE</h3>
         <p>Absolute positioning differs from relative positioning simply by changing the edges that you are "offsetting" from. the edges of your moving element are not used, now the edges of the 'container' or page that your chosen element sits inside of, are what you are moving either toward or away from. (+) numbers position you in from the selected container edges, while (-) numbers can sendyou outside the edges of the container or page.</p>
-        <img class="imageposition" src="./images/absoluteposition.PNG" alt="box element shown 20px in from top and left edges of parent container overlapping another element also in the container">
+        <div class="imageposition">
+        <img width="400em" height="200em" src="./images/absoluteposition.PNG" alt="box element shown 20px in from top and left edges of parent container overlapping another element also in the container">
+      </div>
       </div>
       
       <div class="positioning">
           <h3>FIXED POSITIONING IN CSS CODE</h3>
           <p>Fixed positioning uses 1 set of edges and one set only for you to offset from. And that is the "viewport" or browser window. Think of it like a missing square of mirror glass on your hanging mirror at home. No matter what else you can see in that mirror and no matter if you move mirror somewhere else, that missing square will always be there and you wont see anything else in it. </p>
-          <img class="imageposition" src="./images/fixedposition.PNG" alt="2 mages one showing the box's fixed location 100px in from left side of screen and 200px down from top of screen while also sitting in front of other boxes on the screen. the second images shows the othr boxes moving up the screen as the user scrolls down while the fixed box remains in the same spot on the screen and remains in front of scrolling boxes">
-
+          <div class="imageposition">
+          <img width="400em" height="200em" src="./images/fixedposition.PNG" alt="2 mages one showing the box's fixed location 100px in from left side of screen and 200px down from top of screen while also sitting in front of other boxes on the screen. the second images shows the othr boxes moving up the screen as the user scrolls down while the fixed box remains in the same spot on the screen and remains in front of scrolling boxes">
+          </div>  
       </div>
 </body>
 </html>

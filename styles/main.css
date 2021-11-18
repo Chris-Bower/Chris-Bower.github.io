@@ -25,18 +25,18 @@ body {background-image: url(../mtcookvalley.jpg);
             font-family: Georgia, 'Times New Roman', Times, serif;
             font-size: 2rem;
     } 
-        .techlinks a {
+        .techlinks {
                 box-sizing: border-box; 
-                display: inline-flex; 
+                display: flex; 
                 justify-content: center;
                 padding: 2%;
                 margin: 1%   ;
                 border-style: ridge  ;
                 border-color: rgb(107, 145, 107);
                 background-color: rgb(209, 221, 217);
-                color: red
-                text-decoration:none;
-                font-family: Georgia, 'Times New Roman', Times, serif;
+                color: red;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                text-decoration: none;
                 font-size: 2rem;
     }   
     #homepagetext { color: rgb(243, 247, 246);

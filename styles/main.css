@@ -18,20 +18,46 @@ body {background-image: url(../mtcookvalley.jpg);
             padding: 2%;
             margin: 1%   ;
             border-style: inset;
-            border-color: rgb(107, 145, 107);
+            border-color: rgb(232, 238, 232);
             background-color: rgb(209, 221, 217);
             color: orangered;
             text-decoration:none;
             font-family: Georgia, 'Times New Roman', Times, serif;
             font-size: 2rem;
-    }    
-#homepagetext { color: rgb(243, 247, 246);
+    } 
+        .techlinks a {
+                box-sizing: border-box; 
+                display: inline-flex; 
+                justify-content: center;
+                padding: 2%;
+                margin: 1%   ;
+                border-style: ridge  ;
+                border-color: rgb(107, 145, 107);
+                background-color: rgb(209, 221, 217);
+                color: red
+                text-decoration:none;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 2rem;
+    }   
+    #homepagetext { color: rgb(243, 247, 246);
                 text-align: center;
                 text-shadow: .3ch .3ch .3ch #000,
                              .3ch -.3ch .3ch #000,
                              -.3ch .3ch .3ch #000,
                              -.3ch -.3ch .3ch #000;
-            font-size: 2em;}
-
-
+                font-size: 2em;}
+    
+    .positioning {background-color: aquamarine;
+                  padding: 1em;
+                display:flexbox;
+                margin: 1pc;
+                
+                
+            ;}
+        .imageposition {display:inline-flexbox;
+                    max-width: 50pc;
+                    
+                    
+                    
+                    ;}    
  

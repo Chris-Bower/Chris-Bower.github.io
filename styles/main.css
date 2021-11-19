@@ -1,16 +1,21 @@
 body {background-image: url(../mtcookvalley.jpg);
       background-size: cover;
-      background-attachment: fixed;}  
+      background-attachment: fixed;
+      margin: 0;}  
+
+p {color:rgb(49, 56, 156);}
     
     .heading a {box-sizing: border-box;
                     display: flex;
+                    padding: 1em;
                     justify-content: center;
                     border-style: inset;
                     text-decoration:none;
-                    background-color:rgb(209, 221, 217) ;
+                    background-color:rgb(162, 236, 207) ;
                     font-family: Georgia, 'Times New Roman', Times, serif;
-                    color: orangered;
-                    font-size: 100%;
+                    color: rgb(4, 32, 68);
+                    font-size: 120%;
+                    font-weight: 900;
                      }  
     .links {box-sizing: border-box; 
             display: inline-flex; 
@@ -19,10 +24,11 @@ body {background-image: url(../mtcookvalley.jpg);
             margin: 1%   ;
             border-style: inset;
             border-color: rgb(232, 238, 232);
-            background-color: rgb(209, 221, 217);
-            color: orangered;
+            background-color: rgb(238, 248, 245);
+            color: #a39af3;
+            text-shadow: .1ch .1ch #000;
             text-decoration:none;
-            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             font-size: 2rem;
     } 
         .techlinks {
@@ -51,19 +57,19 @@ body {background-image: url(../mtcookvalley.jpg);
                   padding: 1em;
                 display: flex;
                 flex-wrap: wrap;
-                margin: 1pc;
+                margin-inline: 1rem;
                 position: relative;
                 
                 
             ;}
-    .imageposition {object-fit: contain;
-                    max-width: min-content;
-                    max-height: min-content
+    .imageposition {display: block;
+                    max-width: 100%;    
+                    margin-inline:1rem;
                     
                     
                     
                     
-                    ;}    
+                    }    
      .identitylinks {
         box-sizing: border-box; 
         display: flex; 
@@ -78,7 +84,4 @@ body {background-image: url(../mtcookvalley.jpg);
         text-decoration: none;
         font-size: 2rem;
      }   
-@media (max width 500px) {
-    .imageposition {display: flex;
-    flex-wrap: wrap;
-    object-fit: contain;}
+

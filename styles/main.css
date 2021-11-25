@@ -4,7 +4,7 @@ body {background-image: url(../mtcookvalley.jpg);
       margin: 0;}  
 
 p {color:rgb(49, 56, 156);}
-    
+    /* .heading a and .links are all inside header and universal across all pages to keep access back to any portal from any location*/
     .heading a {box-sizing: border-box;
                     display: flex;
                     padding: 1em;
@@ -34,6 +34,9 @@ p {color:rgb(49, 56, 156);}
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             font-size: 2rem;
     } 
+        .text-center { 
+                text-align: center;
+        }
         .techlinks {
                 box-sizing: border-box; 
                 display: flex; 
@@ -87,7 +90,15 @@ p {color:rgb(49, 56, 156);}
         text-decoration: none;
         font-size: 2rem;
      } 
-     
+        .learning {
+                background-color: rgb(241, 223, 59);
+                padding: 1em;
+              display: flex;
+              flex-wrap: wrap;
+              margin-inline: 1rem;
+              position: relative;
+
+        }   
 .table {-ms-flex-align: center;}     
 table { width: 90%;
         border-style: hidden;

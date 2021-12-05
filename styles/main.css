@@ -2,6 +2,11 @@ body {background-image: url(../mtcookvalley.jpg);
       background-size: cover;
       background-attachment: fixed;
       margin: 0;}  
+.header {font-size: large;
+        font-weight: 900;
+        position: absolute;
+                        
+}
 
 p {color:rgb(49, 56, 156);}
     /* .heading a and .links are all inside header and universal across all pages to keep access back to any portal from any location*/
@@ -96,6 +101,7 @@ p {color:rgb(49, 56, 156);}
               margin-inline: 1rem;
               position: relative;
               
+              
 
         }   
 .table {-ms-flex-align: center;}     
@@ -116,3 +122,11 @@ background-color: #a39af3;}
 
 caption {color: cornsilk;
         background-color: crimson;}
+
+        .jsDom {
+                background-color: rgb(162, 181, 192);
+                padding: 1em;
+              display: flex;
+              flex-wrap: wrap;
+              margin-inline: 1rem;
+              position: relative;

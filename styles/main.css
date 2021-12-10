@@ -126,7 +126,8 @@ caption {color: cornsilk;
         .jsDom {
                 background-color: rgb(162, 181, 192);
                 padding: 1em;
-              display: flex;
-              flex-wrap: wrap;
-              margin-inline: 1rem;
+                display: flex;
+                flex-wrap: wrap;
+                margin-inline: 1rem;
               position: relative;
+        }
